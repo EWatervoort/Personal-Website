@@ -1,24 +1,22 @@
-body header {
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
+/* setting the title element size and centering it*/
 h1 {
     font-size: 56px;
     text-align: center;
 }
 
+/*Setting the size of all headers, font, and centering them*/
 h2 {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
-
+/*Wrapping all of the main text in the center of a box that is 450 pixels wide*/
 .wrapper {
   width: 450px;
   margin: auto;
 }
 
+/*Setting the header color, size, and font color*/
 .top {
     background-color: #13522C;
     width: 100% ;
@@ -31,26 +29,40 @@ h2 {
     height: 175px;
 }
 
+/*Making the background color of the website an off white*/
 body {
   background-color: #EEF6F4;
 }
 
+/*A class to center text*/
 .middle {
   text-align: center;
 }
 
+/*Rounding the corners of the image*/
 img {
   border-radius: 5%;
 }
 
+/*Setting the font and text size*/
 h3 {
   font-size: 17px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*Setting the size, colors, and font for the footer*/
 footer {
   margin-top: 20px;
   background-color: #13522C;
   color: #291E06;
   width: 100% ;
+  height: 50px;
+  padding: 20px;
 }
+
+/*Making the links show different colors when it has been visited, 
+clicked on, hovered, and when active*/
+a:link {color: blue;}
+a:visited {color: blueviolet;}
+a:hover {color:red;}
+a:active {color: green;}
