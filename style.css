@@ -42,6 +42,7 @@ body {
 /*Rounding the corners of the image*/
 img {
   border-radius: 5%;
+  width: 500px;
 }
 
 /*Setting the font and text size*/
